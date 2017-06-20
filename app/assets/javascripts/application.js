@@ -13,4 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap
+//= require jquery.magnific-popup
+//= require gulpfile
+//= require scrollreveal
+//= require creative
 //= require_tree .

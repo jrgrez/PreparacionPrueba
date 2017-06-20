@@ -3,6 +3,10 @@ class PagesController < ApplicationController
   	@user = User.all
   end
 
+  def landing
+  	render layout: 'layout2'
+  end
+
   def save_user
   	if params[:name].present? && params[:email].present? && params[:age].present?
   		@user = User.new(name: params[:name], email: params[:email], age: params[:age])
